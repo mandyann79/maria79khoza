@@ -1,0 +1,77 @@
+body {
+  background-image: url("/maria.jpg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+}
+
+.weather-app {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 90%;
+  max-width: 400px;
+}
+
+header {
+  background-color: #a1cf34;
+  color: #b95050;
+  padding: 20px;
+  text-align: center;
+}
+
+.search-input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b300a4;
+  color: #050b13;
+  cursor: pointer;
+}
+
+.current-weather {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current-city {
+  font-size: 24px;
+  margin: 0;
+}
+
+.current-details {
+  margin: 0;
+}
+
+.current-temperature {
+  display: flex;
+  align-items: center;
+}
+
+.current-temperature-icon {
+  font-size: 48px;
+  margin-right: 10px;
+}
+
+.current-temperature-value {
+  font-size: 48px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
